@@ -18,8 +18,8 @@ public class DefsDbSO : ScriptableObject
     public void BuildCache()
     {
         _heroDefsById = BuildMap(heroDefinitions, h => h != null ? h.heroId : null, "HeroDefinitionSO.heroId");
-        _itemDefsById = BuildMap(itemDefinitions, i => i != null ? i.itemId : null, "ItemDefinitionSO.itemId");
-        _runeDefsById = BuildMap(runeDefinitions, r => r != null ? r.runeId : null, "RuneDefinitionSO.runeId");
+        _itemDefsById = BuildMap(itemDefinitions, i => i != null ? i.id : null, "ItemDefinitionSO.id");
+        _runeDefsById = BuildMap(runeDefinitions, r => r != null ? r.id : null, "RuneDefinitionSO.id");
     }
 
     public bool TryGetHeroDef(string heroId, out HeroDefinitionSO def)

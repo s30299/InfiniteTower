@@ -1754,6 +1754,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1963717699}
+  - component: {fileID: 1963717700}
   m_Layer: 0
   m_Name: SaveSystem
   m_TagString: Untagged
@@ -1776,6 +1777,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1963717700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963717698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c655ead1ff5a0a744b81c1f40ddbd1a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DefsDBBootstrap
+  defsDb: {fileID: 11400000, guid: 0e07ca4faf35971498eb05dfc01131fc, type: 2}
 --- !u!4 &2102877370 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7018358617067503293, guid: 8c9ec0d238716ba499831a97d09c4ccf, type: 3}
