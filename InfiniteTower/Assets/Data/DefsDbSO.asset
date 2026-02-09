@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DefsDbSO
   heroDefinitions:
   - {fileID: 11400000, guid: 6728eb5275d85eb4fa9afd5705e96f0e, type: 2}
+  - {fileID: 11400000, guid: 953b75076f7b32342b713bb509ebfa2a, type: 2}
   itemDefinitions:
   - {fileID: 11400000, guid: cdcf5a8bcf3886d4d84ea65d4fdfb41f, type: 2}
+  - {fileID: 11400000, guid: 038045b3cd247b649a9e99f921265c2e, type: 2}
   runeDefinitions:
   - {fileID: 11400000, guid: 3ab1db7615e172a469f3ee544ba6082f, type: 2}
+  - {fileID: 11400000, guid: 1371f3b09f8635b42a09772f90aef1fc, type: 2}

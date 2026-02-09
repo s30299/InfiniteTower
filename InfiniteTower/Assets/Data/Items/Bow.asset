@@ -17,3 +17,8 @@ MonoBehaviour:
   itemSprite: {fileID: 21300000, guid: 5d7061fc7da05ce44add317708ec7215, type: 3}
   itemType: 0
   rarity: 0
+  baseAttackValue: 0
+  baseDefenseValue: 0
+  baseHealthValue: 0
+  baseLevel: 1
+  description: Lucky

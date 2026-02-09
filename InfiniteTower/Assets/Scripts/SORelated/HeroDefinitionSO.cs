@@ -12,4 +12,5 @@ public class HeroDefinitionSO : ScriptableObject
     public int baseDefense;
     public HeroType heroType;
     public ElementType elementType;
+    internal string id;
 }

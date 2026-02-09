@@ -16,3 +16,7 @@ MonoBehaviour:
   runeName: Rune Of Power
   runeSprite: {fileID: 21300000, guid: 5d9ba4e7d0964044ea54abe409d81dfd, type: 3}
   rarity: 5
+  basePercentAttackBoost: 46
+  basePercentDefenseBoost: 19
+  basePercentHealthBoost: 19
+  baseLevel: 1

@@ -8,4 +8,9 @@ public class ItemDefinitionSO : ScriptableObject
     public Sprite itemSprite;
     public ItemType itemType;
     public RarityType rarity;
+    public int baseAttackValue;
+    public int baseDefenseValue;
+    public int baseHealthValue;
+    public int baseLevel = 1;
+    public string description; 
 }
